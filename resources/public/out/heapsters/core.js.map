@@ -1,0 +1,16 @@
+{"version":3,
+ "file":
+ "/Users/gzmask/project/heapsters/resources/public/out/heapsters/core.js",
+ "sources":["core.cljs"],
+ "lineCount":19,
+ "mappings":
+ ";AAAA;;AAEA,AAAKA,uBAAMC;AAEX,sBAAA,iBAAA,vCAAMC,uCACJ,IAAMC,QAAM,KAAAC,kCACNC,QAAM,AAAcC,sBACpBC,SAAO,AAAeD,uBACtBE,SAAO,KAAAC,uCAAA,oBAAA,IAAA,rBAA6B,CAAGJ,QAAME,uBAC7CG,WAAS,KAAAC,2CACTC,WAAS,KAAAC,kCAAA,EAAA,EAAA,QACTC,WAAS,KAAAC,uCAA0B,+BAAA,2CAAA,uDAAA,jIAACC,sJACpCC,OAAK,KAAAC,0BAAaN,SAASE,eAC3BK,SAAO;sBAAA,AACI,AAACC,sBAAyBC;AAC1B,AAAM,AAAK,AAAYJ,kBAAQ,CAAA,MAAO,AAAK,AAAYA;AACvD,AAAM,AAAK,AAAYA,kBAAQ,CAAA,MAAO,AAAK,AAAYA;AACvD,OAASP,gBAASP,MAAMK;;CAZzC,AAeE,AAAUE,iBAASL,MAAME;AACzB,AAAce,0BAAiB,AAAcZ;AAC7C,AAAMP,UAAMc;AACZ,oBAAA,pBAAM,AAAK,AAAYT;AACvB,OAACW;;AAEL,AAACjB",
+ "names":
+ ["heapsters.core/THREE", "js/THREE", "heapsters.core/draw", "scene",
+  "heapsters.core/THREE.Scene", "width", "js/window", "height",
+  "camera", "heapsters.core/THREE.PerspectiveCamera", "renderer",
+  "heapsters.core/THREE.CanvasRenderer", "geometry",
+  "heapsters.core/THREE.CubeGeometry", "material",
+  "heapsters.core/THREE.MeshBasicMaterial", "cljs.core/clj->js",
+  "cube", "heapsters.core/THREE.Mesh", "render",
+  "js/requestAnimationFrame", "cb", "js/document.body"]}
