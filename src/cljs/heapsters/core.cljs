@@ -1,19 +1,7 @@
-(ns heapsters.core)
+(ns heapsters.core
+  (:require [heapsters.control :as control]))
 
 (def THREE js/THREE)
-
-(defn trackball-control [cam render dom]
-  (let [control (THREE.TrackballControls. cam)] ;drag event fail when using dom
-    (set! (.-rotateSpeed control) 2.0)
-    (set! (.-zoomSpeed control) 1.2)
-    (set! (.-panSpeed control) 0.8)
-    (set! (.-noZoom control) false)
-    (set! (.-noPan control) false)
-    (set! (.-staticMoving control) true)
-    (set! (.-dynamicDampingFactor control) 0.3)
-    (set! (.-keys control) (array 65 83 68));a s d
-    (.addEventListener control "change" render)
-    control))
 
 (defn draw []
   (let [scene (THREE.Scene.)
@@ -23,7 +11,7 @@
         renderer (THREE.WebGLRenderer.)
         dom (.-domElement renderer)
         render #(.render renderer scene camera)
-        control (trackball-control camera render dom)
+        control (control/trackball-control camera render dom)
         center-point {:x 0 :y 0 :z 0}
         geometry (THREE.CubeGeometry. 1 1 1)
         material (THREE.MeshBasicMaterial. (clj->js {:color 0x00ff00}))

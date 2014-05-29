@@ -1,4 +1,4 @@
-# Heapsters: A hardcore-multiplayer PVP Infinite dungeon Rogue-like hacker game
+# heapsters: A hardcore-multiplayer PVP Infinite dungeon Rogue-like hacker game
 
 
 ## basic
@@ -14,50 +14,56 @@ Some mobs can be tamed
 
 
 ## login, offline
-Every heapster has a camp-tent. He stores his stuff there and others can trade with the camp with system defined price.
+Every player has a camp-tent. He stores his stuff there and others can trade with the camp with system defined price.
 
-Heapster dies, only stuff in his camp is preserved.
+player dies, only stuff in his camp is preserved.
 
 players can only log in on the camp spot.
 
-Offline heapsters act as a PVP NPC. He drops loot when killed. 
+Offline players act as a PVP NPC. He drops loot when killed. 
 
-If offline heapster wins a battle, he still weakens. 
+If offline player wins a battle, he still weakens. 
 
-If a heapster dont log online for certain period, he should be so weak and become an easy kill.
+If a player dont log online for certain period, he should be so weak and become an easy kill.
 
 ## travaling
-when heapster visits an unvisited node, there is a chance he enters the starting node of another heapsters dungeon (higher chance when tree height is higher, lower chance when heapsters in this dungeon are more). 
+when player visits an unvisited node, there is a chance he enters the starting node of another players dungeon (higher chance when tree height is higher, lower chance when players in this dungeon are more). 
 
-After heapster enters new dungeon, old dungeon with no one and no camps inside is removed from the system. 
+After player enters new dungeon, old dungeon with no one and no camps inside is removed from the system. 
 
 
 ## difficulty, gameplay
-If one heapster can reach very deep tree in a dungeon, he would know there are lots other heapsters behind his ass.
+If one player can reach very deep tree in a dungeon, he would know there are lots other players behind his ass.
 
-heapsters can add each other to friend list. 
+players can add each other to friend list. 
 
-heapsters can summon each other using a randomly drop item "recall scroll"
+players can summon each other using a randomly drop item "recall scroll"
 
-heapsters can join as a team. Team size has maximum limit to avoid unbalance.
+players can join as a team. Team size has maximum limit to avoid unbalance.
 
 Teams cant tame mobs.
 
 ## tamed mobs, PVP
-heapsters can left tamed Mobs in any node, which attacks other heapsters on sight. heapsters would be notified where and when his tamed Mobs are killed by other heapsters.
+players can left tamed Mobs in any node, which attacks other players on sight. players would be notified where and when his tamed Mobs are killed by other players.
 
 Tamed mobs deployed to a node can not be harder to beat then a good team.
 
-If heapster choose to go back, they will meet other heapsters, leads to PVP.
+If player choose to go back, they will meet other players, leads to PVP.
 
-After certain tree level, the mobs will become so hard that all heapsters would be killed. Forcing heapsters to stay or go back for PVP to gain level.
+After certain tree level, the mobs will become so hard that all players would be killed. Forcing players to stay or go back for PVP to gain level.
 
 
 ## control scheme
-Heapster Mode: MUD like command only interface. powerful for magics, with auto-aiming abilities, and SFW.
+player Mode: MUD like command only interface. powerful for magics, with auto-aiming abilities, and SFW.
 
 Skill system for some newer classes could be based on math. Fire, Nature, Lighting, Water/Ice are corresponding to addition, substraction, multiplication and division respectly. 
 
 Ex: a Lv1 fire skill would be a single digit plus math question, lv2 lighting skill would be a 2 digits by 1 digit multiplication.
 
 
+## crafting system
+Crafting system should be based on algebra. 
+
+If player wants a sword. And there is a recipe that draws a sword, a man helding the sword and a helmet on him. Player has to feed the recipe a man and a helmet, in order to extract the sowrd out. Or player can feed the recipe a sword, a helmet in order to extract the man out.
+
+So in order the make an item out of a recipe, one has to isolate the item by canceling other unwanted items in the recipe.
