@@ -1,6 +1,7 @@
 (ns heapsters.pages.index
   (:use hiccup.core
         hiccup.page
+        hiccup.element
         hiccup.util))
 
 (defn pages 
@@ -8,14 +9,13 @@
   [page]
   (html5 
     [:head 
-     (include-js "/vendor/threejs/three.js") 
-     (include-js "vendor/threejs/TrackballControls.js") 
-     (include-js "out/goog/base.js") 
      [:title "The Game: Heapsters"]] 
     [:body 
      [:div.wrapper 
-      [:div.container 
-       (include-js "/out/heapster.js") 
-       [:script {:type "text/javascript"} "goog.require('heapsters.core');"]
-       [:div.mainbox
-       page]]]]))
+      [:div.container {:id "drawgame"} 
+        (include-js "/vendor/threejs/three.js") 
+        (include-js "vendor/threejs/TrackballControls.js") 
+        (include-js "out/goog/base.js") 
+        (include-js "/out/heapster.js") 
+        (javascript-tag "goog.require('heapsters.core');")
+       [:div.mainbox page]]]]))
